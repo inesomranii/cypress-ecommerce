@@ -6,6 +6,7 @@ describe('template spec', () => {
      cy.get('a[href="https://ecommerce-playground.lambdatest.io/index.php?route=account/forgotten"]').contains('Forgotten Password').click({force: true})
      cy.get('input[id="input-email"]').type('ines@gmail.com')
      cy.get('button[type="submit"]').contains('Continue').click({force: true})
+     //khgjhghjgjh
   
 })
 }) 
